@@ -1,7 +1,16 @@
 aid: flyzipline
 name: Flyzipline
-description: Flyzipline is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Flyzipline (Zipline International Inc., flyzipline.com / zipline.com) designs, manufactures,
+  and operates autonomous delivery drones for food, groceries, and medicine. Its instant logistics
+  platform flies vital shipments — blood products, vaccines, pharmaceuticals, prepared meals, and
+  retail goods — on direct aerial routes at up to 70 mph, with temperature-controlled pods and
+  real-time tracking. Zipline operates distribution centers across the United States, Rwanda, Ghana,
+  Nigeria, Kenya, Côte d'Ivoire, and Japan, partnering with health systems, retailers (Walmart,
+  Chipotle), and restaurant technology providers (Olo) that submit delivery requests through
+  Zipline's ordering system or software integrations. As of early 2026 the fleet has completed more
+  than two million commercial deliveries across 120+ million autonomous miles. This profile was
+  surfaced as a Techstars-adjacent portfolio lead and enriched by the API Evangelist pipeline; Zipline
+  publishes no public developer API, SDK, or OpenAPI at this time — partner integrations are bespoke.
 url: https://raw.githubusercontent.com/api-evangelist/flyzipline/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.zipline.com/og-default-v2.jpg
 tags:
 - Company
+- Drone Delivery
+- Logistics
+- Autonomous Systems
+- Healthcare
+- Robotics
+- Last Mile Delivery
+- Instant Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/flyzipline-domain-security.yml
 - type: Website
-  url: https://flyzipline.com/
+  url: https://www.zipline.com/
+- type: Blog
+  url: https://www.zipline.com/blog
+- type: Newsroom
+  url: https://www.zipline.com/newsroom
+- type: GitHubOrganization
+  url: https://github.com/ZiplineTeam
+- type: TermsOfService
+  url: https://www.zipline.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.zipline.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
